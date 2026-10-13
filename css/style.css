@@ -1,0 +1,507 @@
+/*general*/
+@import url(https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Pinyon+Script&display=swap);
+
+* {
+    margin: 0px;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*header*/
+
+h2 {
+    font-family: Pinyon Script;
+    font-size: 6rem;
+    color: #872130;
+}
+
+.auraycarlos {
+    background-image: url(../imagenes/1_header.jpg);
+    text-align: center;
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #872130;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.versalitas {
+    font-family: EB Garamond;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+    letter-spacing: 30%;
+    margin: 0;
+}
+
+.pinyon {
+    font-family: Pinyon Script;
+    font-size: 2rem;
+    letter-spacing: 30%;
+}
+
+.ornamento1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33.33%;
+}
+
+.eclesiastes {
+    text-align: center;
+    padding: 5%;
+}
+
+.eclesiastes img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/*padres*/
+
+.subs-padres {
+    font-family: Pinyon Script;
+    font-size: 3rem;
+    margin: 0;
+    color: #ffff;
+}
+
+.nombres {
+    font-family: EB Garamond;
+    font-size: 3rem;
+    color: #ffff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0;
+    font-variant: small-caps;
+}
+
+.padres {
+    background-image: url(../imagenes/2_padres.jpg);
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+}
+
+.titulos {
+    font-family: EB Garamond;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    font-size: 3rem;
+}
+
+.ornamento2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.ornamento3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.faltan {
+    text-align: center;
+    color: #872130;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.display-4 {
+    font-family: Pinyon Script;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #872130;
+}
+
+.tiempo {
+    font-family: EB Garamond;
+    font-variant: small-caps;
+    font-size: 1.2rem;
+    letter-spacing: 30%;
+    color: #872130;
+}
+
+
+
+.elevento {
+    background-image: url(../imagenes/3_itinerario.png);
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.itinerario-pildora {
+    border: solid #872130 1px;
+    border-radius: 999em;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    width: 100%;
+    transition: all .3s ease;
+    color: #872130;
+    font-family: EB Garamond;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.elevento, .titulos-itinerario {
+    font-family: Pinyon Script;
+    font-size: 2.5rem;
+}
+
+.elevento h2 {
+    color: #ffff;
+}
+
+.icono-itinerario {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.itinerario-contenido {
+    border: solid #872130 1px;
+    border-radius: 24px 24px 0px 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    transition: all .3s ease;
+    color: #872130;
+    font-family: EB Garamond;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.itinerario-contenido2 {
+    border: solid #872130 1px;
+    border-radius: 0px 0px 24px 24px;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    transition: all .3s ease;
+    color: #872130;
+    font-family: EB Garamond;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-top: -1px;
+}
+
+.itinerario-contenido p,
+.itinerario-contenido2 p,
+.elevento p,
+.titulos-itinerario p {
+    margin-bottom: 0;
+    padding: 8px;
+}
+
+
+.ubicacion {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.ubicacion-pildora {
+    border: solid #872130 1px;
+    border-radius: 999em;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    transition: all .3s ease;
+    color: #872130;
+    font-family: Pinyon Script;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    gap: 20px;
+    padding: 20px;
+}
+
+.direccion p {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px; 
+    color: #872130;
+    font-family: EB Garamond;
+    font-size: 1rem;
+}
+
+.icono-ubicacion {
+    width: 20%;
+}
+
+.mesa-de-regalos {
+    background-image: url(../imagenes/4_mesaderegalo.jpg);
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+a {    
+    text-decoration: none;
+    color: white;
+}
+
+.texto-regalos {
+    font-family: EB Garamond;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #872130;
+}
+
+.lista-de-deseos {
+    background-color: #872130;
+    border-radius: 6px;
+    text-align: center;
+    width: 160px;
+    padding: 8px;
+    margin-top: 30px;
+    transition: all .3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.lista-de-deseos:hover {
+    border: solid #872130 1px;
+    background-color: #ffffff;
+    color: #872130;
+    transform: scale(1.1) translateY(-3px);
+}
+
+a:hover {
+    color: #872130;
+}
+
+.confirma {
+    background-image: url(../imagenes/5_confirma.jpg);
+    text-align: center;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.confirmacion {
+    background-color: #872130;
+    border-radius: 6px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 30px;
+    transition: all .3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.confirmacion:hover {
+    border: solid #872130 1px;
+    background-color: #ffffff;
+    color: #872130;
+    transform: scale(1.1) translateY(-3px);
+}
+
+.zoe {
+    padding-top: 30px;
+}
+
+
+/*media queries*/
+
+@media (max-width: 1200px) {
+
+    .titulos-itinerario {
+        font-size: 2.2rem;
+    }
+
+    .nombres {
+        font-size: 2.3rem;
+    }
+
+    .subs-padres {
+        font-size: 2.3rem;
+    }
+
+    .titulos {
+        font-size: 2.3rem;
+    }
+
+    .icono-itinerario {
+        width: 40%;
+    }
+
+    .ubicacion-pildora {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 5.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .zoe {
+        width: 60%;
+    }
+
+    h2 {
+        font-size: 4.5rem;
+    }
+
+    .nombres {
+        font-size: 1.8rem;
+    }
+
+    .subs-padres {
+        font-size: 1.8rem;
+    }
+
+    .titulos {
+        font-size: 2rem;
+    }
+        
+    .titulos-itinerario {
+        font-size: 1.6rem;
+    }
+
+    .itinerario-contenido, .itinerario-contenido2 {
+        font-size: 1.2rem;
+    }
+
+    .ubicacion-pildora {
+        font-size: 2.8rem;
+    }
+
+    
+    .versalitas {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 4rem; 
+    }
+
+    .titulos {
+        font-size: 1.6rem;
+    }
+
+    .zoe {
+        width: 80%;
+    }
+
+    .icono-itinerario {
+        width: 24%;
+    }
+
+    .ubicacion-pildora {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .pinyon {
+        font-size: 1.6rem;
+    }
+
+    .nombres {
+        font-size: 1.3rem;
+    }
+
+    .subs-padres {
+        font-size: 1.3rem;
+    }
+
+    .elevento {
+        background-image: url(../imagenes/3_itinerario_576.png);
+    }
+
+    .datos-itinerario {
+        font-size: 1rem;
+    }
+
+    .icono-itinerario {
+        width: 75%;
+    }
+
+    .titulos-itinerario {
+        font-size: 2rem;
+    }
+
+    .icono-ubicacion {
+        display: none;
+    }
+
+    .ubicacion-pildora {
+        font-size: 2.5rem;
+        display: block;
+        margin-left: 40px;
+    }
+
+    .direccion {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    h2 {
+        font-size: 3rem; 
+    }
+
+    .pinyon {
+        font-size: 1.2rem;
+    }
+
+    .nombres {
+        font-size: 1rem;
+    }
+
+    .subs-padres {
+        font-size: 1rem;
+    }
+
+    .titulos {
+        font-size: 1rem;
+    }
+
+    .icono {
+        display: none;
+    }
+
+
+}
